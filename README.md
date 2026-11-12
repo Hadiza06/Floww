@@ -1,10 +1,18 @@
-# 🎵 Floww
+<p align="center">
+  <img src="logo/logo-floww.png" width="140" alt="Logo Floww">
+</p>
 
-> **Une humeur. Un flow. Ta vibe.**
-> Application mobile de bien-être numérique : la musique qui s'adapte à ton humeur.
+<h1 align="center">🎵 Floww</h1>
 
-Projet final UX/UI B2 · Conception d'un mini système d'interface  
-**Auteure** : Hadiza Hamidou Ba
+<p align="center">
+  <b>Une humeur. Un flow. Ta vibe.</b><br>
+  Application mobile de bien-être numérique : la musique qui s'adapte à ton humeur.
+</p>
+
+<p align="center">
+  Projet final UX/UI B2 · Conception d'un mini système d'interface<br>
+  <b>Auteure</b> : Hadiza Hamidou Ba
+</p>
 
 ---
 
@@ -14,6 +22,8 @@ Projet final UX/UI B2 · Conception d'un mini système d'interface
 |---|---|
 | 🎨 **Projet Figma** | [Ouvrir le projet](https://www.figma.com/design/oZQihj5edhnS2BH0u56tk7/Projet?node-id=0-1&p=f&t=Oe5rbo2ksU9zfYUR-0) |
 | ▶️ **Prototype interactif** | [Ouvrir le prototype](https://www.figma.com/proto/oZQihj5edhnS2BH0u56tk7/Projet?node-id=52-5&p=f&t=yEGamjCM32wtYfg2-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=52%3A5) |
+| 📄 **Rapport final (PDF)** | [Floww_Rapport.pdf](docs/Floww_Rapport.pdf) |
+| 📂 **Tous les documents** | [Dossier docs/](docs/) |
 
 ---
 
@@ -79,7 +89,7 @@ Après une journée chargée, Léa ouvre Floww dans le métro. L'écran de séle
 - **Playfair Display** (serif) : titres, ton éditorial et chaleureux
 - **Inter** (sans-serif) : textes courants et interface, pour la lisibilité
 
-**Logo** : une note de musique blanche sur un cercle vert sauge, entourée d'étincelles. Réalisé sous Inkscape (SVG).
+**Logo** : une note de musique blanche sur un cercle vert sauge, entourée d'étincelles. Réalisé sous Inkscape.
 
 **Icônes** : bibliothèque Phosphor (via le plugin Iconify) : trait arrondi, cohérent avec l'identité douce.
 
@@ -115,12 +125,18 @@ Après une journée chargée, Léa ouvre Floww dans le métro. L'écran de séle
 | 5 | **Explorer** | Playlists par ambiance, filtres par humeur |
 | 6 | **Favoris** | État vide avec message d'accueil |
 
-![Splash](screens/splash.png)
-![Accueil](screens/accueil.png)
-![Sélection d'humeur](screens/selection-humeur.png)
-![Explorer](screens/explorer.png)
-![Onboarding](screens/onboarding.png)
-![Favoris](screens/favoris.png)
+<table>
+  <tr>
+    <td align="center"><img src="screens/splash.png" width="220" alt="Splash"><br><b>Splash</b></td>
+    <td align="center"><img src="screens/onboarding.png" width="220" alt="Onboarding"><br><b>Onboarding</b></td>
+    <td align="center"><img src="screens/accueil.png" width="220" alt="Accueil"><br><b>Accueil</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screens/selection-humeur.png" width="220" alt="Sélection d'humeur"><br><b>Sélection d'humeur</b></td>
+    <td align="center"><img src="screens/explorer.png" width="220" alt="Explorer"><br><b>Explorer</b></td>
+    <td align="center"><img src="screens/favoris.png" width="220" alt="Favoris"><br><b>Favoris</b></td>
+  </tr>
+</table>
 
 ---
 
@@ -135,10 +151,22 @@ La navigation entre écrans est fonctionnelle dans le prototype Figma, avec une 
 
 ---
 
+## 🗂️ Structure du dépôt
+
+```
+floww/
+├── README.md        Présentation du projet
+├── docs/            Rapport et documents de conception
+├── screens/         Captures des écrans du prototype
+└── logo/            Logo Floww (PNG)
+```
+
+---
+
 ## 🛠️ Outils
 
 Figma · Inkscape · Iconify (Phosphor) · Google Fonts
 
 ---
 
-*Projet réalisé dans le cadre du cours UX/UI B2.*# Floww
+*Projet réalisé dans le cadre du cours UX/UI B2.*
